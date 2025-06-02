@@ -45,7 +45,7 @@ html {
     text-align: center;
 }
 
-.annual-plan {
+.h3-annual-plan {
     font-weight: 800;
 }
 
@@ -132,4 +132,36 @@ a:hover {
 
 .boton2:hover {
     color: hsl(223, 47%, 23%);
+}
+
+@media only screen and (max-width: 400px) {
+    .div-article {
+        width: 20rem;
+        height: 21rem;
+    }
+
+    .div-img {
+        width: 20rem;
+    }
+
+    body {
+        width: 100%;
+    }
+
+    .h3-annual-plan {
+        font-size: 14px;
+    }
+
+    .price-per-year {
+        font-size: 14px;
+    }
+
+    .change {
+        font-size: 12px;
+    }
+
+    #title {
+        font-size: 22px;
+        padding-top: 1rem;
+    }
 }
