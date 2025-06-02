@@ -6,6 +6,8 @@
 body {
     background-image: url(pattern-background-desktop.svg);
     background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    background-size: contain;
     display: flex;
     justify-content: center;
     align-items: center;
